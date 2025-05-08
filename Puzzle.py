@@ -38,5 +38,5 @@ else:
     st.success("🎉 You unlocked the treasure!")
 
     image_url = "https://th.bing.com/th/id/OIP.m9tKuYdDj1fuOtqbYILnjwHaD3?w=314&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
-    st.image(image_url, caption="Submit this image to qualify!", use_column_width=True)
+    st.image(image_url, caption="Submit this image to qualify!", use_container_width=True)
     st.write(f"[Click here if image doesn't load]({image_url})")
