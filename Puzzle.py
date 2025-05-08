@@ -30,7 +30,7 @@ if q_index < len(questions):
         if user_input == current['a'].lower():
             st.success("✅ Correct!")
             st.session_state.progress += 1
-            st.experimental_rerun()
+            st.rerun()
         else:
             st.error("❌ Incorrect! Try again.")
 else:
